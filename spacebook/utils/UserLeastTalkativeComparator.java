@@ -9,9 +9,9 @@ public class UserLeastTalkativeComparator implements Comparator<User>
   @Override
   public int compare(User a, User b)
   {
-    //Algorithmic code: remove when done
+    // Algorithmic code: remove when done
     // TODO: Complete implementation of method UserLeastTalkativeComparator.compare
-	// Compare outbox sizes and return integer appropriate to sorting smallest to largest
+	  // Compare outbox sizes and return integer appropriate to sorting smallest to largest
     return 0;
   }
 }

@@ -27,7 +27,7 @@ USER INSTRUCTIONS:      In Eclipse
    *    2 runs Home.byConversation    		(equivalent to BY CONVERSATION button press)
    *    
    *    Social Leaderboard
-   *    3 runs LeaderBoard.index      		(equivalent to MOST SOCIAL button press)
-   *    4 runs LeaderBoard.talkative  		(equivalent to MOST TALKATIVE button press)
-   *    5 runs LeaderBoard.leastTalkative 	(equivalent to LEAST TALKATIVE button press)
+   *    3 runs LeaderBoardView.index      		(equivalent to MOST SOCIAL button press)
+   *    4 runs LeaderBoardView.talkative  		(equivalent to MOST TALKATIVE button press)
+   *    5 runs LeaderBoardView.leastTalkative 	(equivalent to LEAST TALKATIVE button press)
    */

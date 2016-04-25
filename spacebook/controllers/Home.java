@@ -2,6 +2,7 @@ package controllers;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
 import models.Friendship;
 import models.Message;
@@ -12,6 +13,7 @@ import views.HomeView;
 
 public class Home
 { 
+
   /**
    * Dispatches a list of messages in the user's inbox to HomeView for rendering
    * This method simulates the Play version of spaceboook Home page responding to BY DATE button press
@@ -43,6 +45,11 @@ public class Home
      * Sort the copy of the inbox by sender name (name = firstname + lastname))
      * Render the inbox in the home view 
      */
+    ArrayList<Message> inbox = user.inbox;
+    
+    Collections.sort(inbox, new MessageFromComparator());
+    HomeView.byUser(user, inbox);
+     
   }
   
   /**

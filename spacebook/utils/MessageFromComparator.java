@@ -16,7 +16,6 @@ import models.Message;
  */
 public class MessageFromComparator implements Comparator<Message>
 {
-
   /**
    * Performs a lexicographic comparison the String name fields of the sending 
    * user (that is User from) in 2 Message objects
@@ -31,7 +30,10 @@ public class MessageFromComparator implements Comparator<Message>
   public int compare(Message o1, Message o2)
   {
 	// TODO: Complete implementation of method MessageFromComparator.compare.
-    return 0;
+    String s1 = o1.from.firstName + o1.from.lastName;
+    String s2 = o2.from.firstName + o2.from.lastName;
+    
+    return s1.compareTo(s2);
   }
 
 }
