@@ -1,17 +1,16 @@
 package models;
 
-
 public class Friendship
 {
-    User sourceUser;
-    public User targetUser;
-    
-    public Friendship(User sourceUser, User targetUser)
-    {
-        this.sourceUser = sourceUser;
-        this.targetUser = targetUser;
-    }
-    
+  public User sourceUser;
+  public User targetUser;
+
+  public Friendship(User sourceUser, User targetUser)
+  {
+    this.sourceUser = sourceUser;
+    this.targetUser = targetUser;
+  }
+
   @Override
   public String toString()
   {

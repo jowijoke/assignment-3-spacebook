@@ -9,6 +9,6 @@ public class UserTalkativeComparator implements Comparator<User>
   @Override
   public int compare(User a, User b)
   {
-    return Integer.compare (b.outbox.size(), a.outbox.size());
+    return Integer.compare(b.outbox.size(), a.outbox.size());
   }
 }
