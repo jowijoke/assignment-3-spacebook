@@ -12,6 +12,6 @@ public class UserLeastTalkativeComparator implements Comparator<User>
     // Algorithmic code: remove when done
     // TODO: Complete implementation of method UserLeastTalkativeComparator.compare
 	  // Compare outbox sizes and return integer appropriate to sorting smallest to largest
-    return 0;
+    return Integer.compare (a.outbox.size(), b.outbox.size());
   }
 }
