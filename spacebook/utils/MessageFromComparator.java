@@ -29,7 +29,7 @@ public class MessageFromComparator implements Comparator<Message>
   @Override
   public int compare(Message o1, Message o2)
   {
-	// TODO: Complete implementation of method MessageFromComparator.compare.
+
     String s1 = o1.from.firstName + o1.from.lastName;
     String s2 = o2.from.firstName + o2.from.lastName;
     
