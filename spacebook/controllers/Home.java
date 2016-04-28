@@ -23,8 +23,7 @@ public class Home
    * the equivalent Play method. A similar approach has been adopted with other
    * view methods.
    * 
-   * @param user
-   *          simulates the logged-in user
+   * @param user simulates the logged-in user
    */
   public static void index(User user)
   {
